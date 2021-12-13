@@ -1,8 +1,8 @@
 namespace AdventOfCode.day11; 
 
 public class OctoGrid {
-    private int _width;
-    private int _height;
+    private readonly int _width;
+    private readonly int _height;
     private readonly Octopus[,] _octopi;
 
     public int OctoCount => _octopi.Length;
