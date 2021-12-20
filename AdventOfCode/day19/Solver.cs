@@ -33,11 +33,6 @@ public static class Solver {
         foreach (var beacon in rationalised.SelectMany(b => b.Beacons)) {
             coords.Add(beacon.Position);
         }
-
-        foreach (var coord in coords.OrderBy(c => c.Item1).ThenBy(c => c.Item2).ThenBy(c => c.Item3)) {
-            Console.WriteLine($"{coord.Item1},{coord.Item2},{coord.Item3}");
-        }
-        
         return coords.Count;
     }
     
