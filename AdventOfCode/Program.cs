@@ -1,6 +1,6 @@
 ﻿// https://adventofcode.com/2021
 
-using AdventOfCode.day21;
+using AdventOfCode.day22;
 
 
 
